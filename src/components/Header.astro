@@ -1,0 +1,25 @@
+---
+const { title } = Astro.props;
+---
+
+<header>
+  <img
+    src="https://gist.githubusercontent.com/maykbrito/f47569e32fb2b21f2ecc9f4c035c141f/raw/a45997404564112d7596fbb1b9cad5de5521927e/logo.svg"
+    alt="Logo NLW"
+  />
+  <h1>Teste seus conhecimentos em {title}</h1>
+</header>
+
+<style>
+  header {
+    margin-top: 64px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #334155;
+  }
+
+  header h1 {
+    margin-top: 24px;
+    font-size: 30px;
+    color: #f1f5f9;
+  }
+</style>
